@@ -1,0 +1,29 @@
+<view class="main">
+  <view class="section" bindtap="show" wx:for="{{arry}}" wx:key="{{arry}}">
+    <image class="left" src="{{item.src}}"></image>
+    <view class="right">
+      <text class="title">{{item.title}}</text>
+      <text class="time">{{item.time}}</text>
+    </view>
+  </view>
+  <view class="section" bindtap="dataDetail" wx:for="{{arry}}" wx:key="{{arry}}">
+    <image class="left" src="{{item.src}}"></image>
+    <view class="right">
+      <text class="title">{{item.title}}</text>
+      <text class="time">{{item.time}}</text>
+    </view>
+  </view>
+</view>
+<!--模态框开始-->
+<view class="modal-box" hidden="{{flag}}">
+  <view class="modal-body">
+    <view class="modal-content">
+      <text class='title'>星课帐号绑定</text>
+      <image class='logo' src='../images/logo.png'></image>
+      <text class='info'>需绑定星课帐号才可以下载哦</text>
+      <text class='bind' bindtap='bind'> 前去绑定/注册</text>
+      <text class='cancel' bindtap="cancel">取消</text>
+    </view>
+  </view>
+</view>
+<!--模态框结束-->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="618px" height="370px" viewBox="0 0 618 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="602" height="354"></rect>
+        <filter x="-2.2%" y="-3.1%" width="104.3%" height="107.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.265279549   0 0 0 0 0.265279549   0 0 0 0 0.265279549  0 0 0 0.461503623 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AEIS报考指南" transform="translate(-900.000000, -1331.000000)">
+            <g id="Group-27" transform="translate(908.000000, 1337.000000)">
+                <g id="Group-19">
+                    <g id="Rectangle-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#D83535" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="S-AEIS" font-family="PingFangSC-Semibold, PingFang SC" font-size="26" font-weight="500" fill="#FFFFFF">
+                        <tspan x="75" y="120">S-AEIS</tspan>
+                    </text>
+                    <text id="AEIS补充考试" opacity="0.800000012" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#FFFFFF">
+                        <tspan x="75" y="82">AEIS补充考试</tspan>
+                    </text>
+                    <text id="未能在当年10月参加新加坡政府中小学国际" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                        <tspan x="75" y="174">未能在当年10月参加新加坡政府中小学国际学生统一入学考试(Admissions </tspan>
+                        <tspan x="75" y="200">Exercise for International Students，简称AEIS)的国际学生，可以申请报</tspan>
+                        <tspan x="75" y="226">名参加2018年度新加坡政府中小学国际学生统一入学考试 – 补充考试</tspan>
+                        <tspan x="75" y="252">(Supplementary Admissions Exercise for International Students，简称</tspan>
+                        <tspan x="75" y="278">S-AEIS)。</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

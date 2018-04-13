@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1100px" height="482px" viewBox="0 0 1100 482" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AEIS报考指南" transform="translate(-410.000000, -2481.000000)">
+            <g id="Group-15" transform="translate(410.000000, 2481.000000)">
+                <path d="M365,0 L536,0 L536,0 C540.418278,-1.65085012e-14 544,3.581722 544,8 L544,49 L544,49 C544,49.5522847 543.552285,50 543,50 L358,50 L358,50 C357.447715,50 357,49.5522847 357,49 L357,8 L357,8 C357,3.581722 360.581722,8.11624501e-16 365,0 Z" id="Rectangle-3-Copy-3" fill="#D83535"></path>
+                <path d="M556.5,49.5 L742.5,49.5 L742.5,8 C742.5,3.85786438 739.142136,0.5 735,0.5 L564,0.5 C559.857864,0.5 556.5,3.85786438 556.5,8 L556.5,49.5 Z" id="Rectangle-3-Copy-4" stroke="#D83535"></path>
+                <text id="小学组-copy" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="423" y="32">小学组</tspan>
+                </text>
+                <text id="中学组-copy" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#D83535">
+                    <tspan x="622" y="32">中学组</tspan>
+                </text>
+                <rect id="Rectangle-17" fill="#FFF4F4" x="0" y="50" width="1100" height="432"></rect>
+                <path d="M10,50 L1090,50 L1090,50 C1095.52285,50 1100,54.4771525 1100,60 L1100,117 L0,117 L0,60 L0,60 C-6.76353751e-16,54.4771525 4.4771525,50 10,50 Z" id="Rectangle-2" fill="#D83535"></path>
+                <rect id="Rectangle-5" fill="#FFFFFF" x="0" y="117" width="1100" height="60"></rect>
+                <text id="录取当年1月1日时考生的年龄" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="57.12" y="95">录取当年1月1日时考生的年龄</tspan>
+                </text>
+                <text id="7至7+" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="151.408" y="157">7至7+</tspan>
+                </text>
+                <text id="适合的考试级别" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="419.5" y="95">适合的考试级别</tspan>
+                </text>
+                <text id="P2/P3" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="459.128" y="157">P2/P3</tspan>
+                </text>
+                <text id="考试内容" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="677.5" y="95">考试内容</tspan>
+                </text>
+                <text id="P1/P2" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="691.22" y="157">P1/P2</tspan>
+                </text>
+                <text id="可能出现的录取结果" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="881.5" y="95">可能出现的录取结果</tspan>
+                </text>
+                <text id="P2-或-P1-或-失败" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="902.064" y="157">P2 或 P1 或 失败</tspan>
+                </text>
+                <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" x="0" y="241" width="1100" height="60"></rect>
+                <rect id="Rectangle-5-Copy-3" fill="#FFFFFF" x="0" y="361" width="1100" height="60"></rect>
+                <text id="8至8+" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="150.06" y="217">8至8+</tspan>
+                </text>
+                <text id="10至10+" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="144.144" y="337">10至10+</tspan>
+                </text>
+                <text id="12至12+" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="144.144" y="457">12至12+</tspan>
+                </text>
+                <text id="9至9+" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="150.06" y="277">9至9+</tspan>
+                </text>
+                <text id="11至11+" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="147.328" y="397">11至11+</tspan>
+                </text>
+                <text id="P2/P3" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="459.128" y="217">P2/P3</tspan>
+                </text>
+                <text id="P4/P5" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="459.128" y="337">P4/P5</tspan>
+                </text>
+                <text id="P4/P5-Copy" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="459.128" y="457">P4/P5</tspan>
+                </text>
+                <text id="P4/P5" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#999999">
+                    <tspan x="456.144" y="278">P4/P5</tspan>
+                </text>
+                <text id="P4/P5" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="459.128" y="397">P4/P5</tspan>
+                </text>
+                <text id="P1/P2" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="691.22" y="217">P1/P2</tspan>
+                </text>
+                <text id="P3/P4" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="690.128" y="337">P3/P4</tspan>
+                </text>
+                <text id="P3/P4-Copy-2" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="690.128" y="457">P3/P4</tspan>
+                </text>
+                <text id="P3/P4" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#999999">
+                    <tspan x="687.144" y="278">P3/P4</tspan>
+                </text>
+                <text id="P3/P4-Copy" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="690.128" y="397">P3/P4</tspan>
+                </text>
+                <text id="P3-或-P2-或-P1-或-失败" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="879.3" y="217">P3 或 P2 或 P1 或 失败</tspan>
+                </text>
+                <text id="P5-或-P4-或-P3-或-失败" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="877.208" y="337">P5 或 P4 或 P3 或 失败</tspan>
+                </text>
+                <text id="P5-或-失败" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="924.236" y="457">P5 或 失败</tspan>
+                </text>
+                <text id="P4-或-P3-或-P2-或-失败" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" fill="#999999">
+                    <tspan x="866.484" y="278">P4 或 P3 或 P2 或 失败</tspan>
+                </text>
+                <text id="P5-或-P4-或-失败" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" fill="#999999">
+                    <tspan x="901.472" y="397">P5 或 P4 或 失败</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1030px" height="361px" viewBox="0 0 1030 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M398.898648,63.3152162 C406.382682,46.8448076 416.214824,32.198675 427.859069,21.8410233 C451.565835,0.753659818 483.486887,0 517.692633,0 C551.738191,0 582.120648,0.633978447 605.786316,21.5453073 C616.523596,31.0329237 625.733478,44.1343503 632.999416,58.9524602 C618.69864,109.367183 623.111505,156.870937 642.999993,182.313625 C622.105591,246.344232 565.284724,312.579848 516.98947,324 C471.773921,313.151388 417.164226,251.907414 394.000008,190.486413 C412.414977,162.890512 415.133758,114.077925 398.898648,63.3152162 Z" id="path-1"></path>
+        <filter x="-12.4%" y="-9.0%" width="124.9%" height="119.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.406728316   0 0 0 0 0.406728316   0 0 0 0 0.406728316  0 0 0 0.168506567 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="雅思专题页" transform="translate(-446.000000, -2664.000000)">
+            <g id="Group-15" transform="translate(441.000000, 2681.000000)">
+                <g id="Group-5">
+                    <text id="INTRODUCTION-OF-TEAC" font-family="PingFangSC-Regular, PingFang SC" font-size="70" font-weight="normal" fill="#F0F0F0">
+                        <tspan x="0" y="146">INTRODUCTION OF TEACHERS</tspan>
+                    </text>
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#F0F0F0" stroke-width="3" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

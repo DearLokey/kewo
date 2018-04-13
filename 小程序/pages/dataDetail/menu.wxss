@@ -1,0 +1,37 @@
+.menu{
+  width: 100%;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background: #fff;
+}
+.menu .sub{
+  display: flex;
+  flex-direction: column;
+  width: 240rpx;
+  justify-content: center;
+  align-items: center;
+}
+.menu .sub:not(:last-child){
+  border-right:rgba(225, 225, 225, 0.8) solid 1rpx;
+}
+.menu .sub text{
+  padding-top: 20rpx;
+  font-size: 20rpx;
+}
+.menu .sub:first-child image{
+  width: 56rpx;
+  height: 34rpx;
+}
+.menu .sub:nth-child(2) image{
+  width: 42rpx;
+  height: 42rpx;
+}
+.menu .sub:last-child image{
+  width: 30rpx;
+  height: 28rpx;  
+}

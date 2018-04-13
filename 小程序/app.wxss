@@ -1,0 +1,28 @@
+/**app.wxss**/
+
+page {
+  background: #f8f8f8;
+  height: 100%;
+}
+
+.main {
+  width: 670rpx;
+  font-size: 28rpx;
+}
+
+.main .section {
+  background: #fff;
+  box-shadow: 0px 5rpx 15rpx 0px rgba(0, 0, 0, 0.05);
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.main .section .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .section .right {
+  vertical-align: top;
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1160px" height="1278px" viewBox="0 0 1160 1278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>表格</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.5%" y="-2.2%" width="125.0%" height="105.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.254901961   0 0 0 0 0.0431372549   0 0 0 0 0.0431372549  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="260" height="1238" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AEIS暑期集训班-Copy" transform="translate(-380.000000, -6136.000000)">
+            <g id="项目特色" transform="translate(380.000000, 5984.000000)">
+                <g id="表格" transform="translate(0.000000, 167.000000)">
+                    <g id="Group-28" transform="translate(0.000000, 11.000000)">
+                        <rect id="Rectangle-6" fill="#D31818" opacity="0.062266791" x="0" y="91" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-2" fill="#FFFFFF" opacity="0.062266791" x="0" y="151" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-4" fill="#D31818" opacity="0.062266791" x="0" y="211" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-5" fill="#FFFFFF" opacity="0.062266791" x="0" y="271" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-6" fill="#D31818" opacity="0.062266791" x="0" y="331" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-7" fill="#FFFFFF" opacity="0.062266791" x="0" y="391" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-8" fill="#D31818" opacity="0.062266791" x="0" y="451" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-9" fill="#FFFFFF" opacity="0.062266791" x="0" y="511" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-10" fill="#D31818" opacity="0.062266791" x="0" y="571" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-11" fill="#FFFFFF" opacity="0.062266791" x="0" y="631" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-12" fill="#D31818" opacity="0.062266791" x="0" y="691" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-13" fill="#FFFFFF" opacity="0.062266791" x="0" y="751" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-14" fill="#D31818" opacity="0.062266791" x="0" y="811" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-15" fill="#FFFFFF" opacity="0.062266791" x="0" y="871" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-16" fill="#D31818" opacity="0.062266791" x="0" y="931" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-17" fill="#FFFFFF" opacity="0.062266791" x="0" y="991" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-18" fill="#D31818" opacity="0.062266791" x="0" y="1051" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-19" fill="#FFFFFF" opacity="0.062266791" x="0" y="1111" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-20" fill="#D31818" opacity="0.062266791" x="0" y="1171" width="1160" height="60"></rect>
+                        <rect id="Rectangle-6-Copy-3" fill="#D31919" x="0" y="0" width="1159" height="80"></rect>
+                    </g>
+                    <text id="主课+辅课高效学习模式-独家10年AEI" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="60" fill="#3B3B3B">
+                        <tspan x="124.765" y="117">主课+辅课高效学习模式</tspan>
+                        <tspan x="113.852" y="177">独家10年AEIS培训积淀教材</tspan>
+                        <tspan x="155.859" y="237">AEIS模拟真题</tspan>
+                        <tspan x="143" y="297">无需放弃国内学业</tspan>
+                        <tspan x="122" y="357">无需支付高昂的预科费用</tspan>
+                        <tspan x="127.859" y="417">AEIS考试注册报名服务</tspan>
+                        <tspan x="127.859" y="477">AEIS考场注意事项文件</tspan>
+                        <tspan x="127.859" y="537">AEIS考场现场指导服务</tspan>
+                        <tspan x="134.859" y="597">免费AEIS考前说明会</tspan>
+                        <tspan x="141.859" y="657">AEIS考场接送服务</tspan>
+                        <tspan x="143" y="717">入境签证办理服务</tspan>
+                        <tspan x="136" y="777">预定新加坡酒店服务</tspan>
+                        <tspan x="143" y="837">新加坡接送机服务</tspan>
+                        <tspan x="129" y="897">免费录取报道指导服务</tspan>
+                        <tspan x="108" y="957">学生准证申请指导与办理服务</tspan>
+                        <tspan x="108" y="1017">进入政府中小学后的课业辅导</tspan>
+                        <tspan x="108" y="1077">进入政府中小学后的家庭托管</tspan>
+                        <tspan x="122" y="1137">寻找住房或寄宿家庭服务</tspan>
+                        <tspan x="157" y="1197">其他额外服务</tspan>
+                    </text>
+                    <text id="新加坡私立院校AEIS-全日制课程" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#FFFFFF">
+                        <tspan x="717.168" y="47">新加坡私立院校AEIS</tspan>
+                        <tspan x="751" y="69">全日制课程</tspan>
+                    </text>
+                    <text id="中国其他AEIS备考-培训课程" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#FFFFFF">
+                        <tspan x="973.168" y="47">中国其他AEIS备考</tspan>
+                        <tspan x="1007" y="69">培训课程</tspan>
+                    </text>
+                    <text id="服务内容" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#FFFFFF">
+                        <tspan x="169" y="57">服务内容</tspan>
+                    </text>
+                    <path d="M916.5,4.5 L916.5,90.5" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M916.5,105.5 L916.5,1239.07179" id="Line-2-Copy-3" stroke="#FFC7C7" stroke-linecap="square"></path>
+                    <g id="Group-29" transform="translate(402.000000, 0.000000)">
+                        <g id="Rectangle-6-Copy" filter="url(#filter-1)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-2"></use>
+                            <rect fill="#D31919" mask="url(#mask-3)" x="0" y="0" width="260" height="89"></rect>
+                            <rect id="Rectangle-6" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="95" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-4" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="215" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-6" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="335" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-8" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="455" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-10" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="575" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-12" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="695" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-14" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="815" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-16" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="935" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-18" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="1055" width="1160" height="60"></rect>
+                            <rect id="Rectangle-6-Copy-20" fill="#D31818" opacity="0.062266791" mask="url(#mask-3)" x="-402" y="1178" width="1160" height="60"></rect>
+                        </g>
+                        <path d="M116,121.328374 L123.996889,131.377209 C124.684694,132.241499 125.942916,132.38457 126.807207,131.696765 C126.902349,131.62105 126.990388,131.536817 127.070231,131.445112 L144,112" id="Path-3" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M377,131.328374 L384.996889,141.377209 C385.684694,142.241499 386.942916,142.38457 387.807207,141.696765 C387.902349,141.62105 387.990388,141.536817 388.070231,141.445112 L405,122" id="Path-3" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,185.328374 L123.996889,195.377209 C124.684694,196.241499 125.942916,196.38457 126.807207,195.696765 C126.902349,195.62105 126.990388,195.536817 127.070231,195.445112 L144,176" id="Path-3-Copy" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,245.328374 L123.996889,255.377209 C124.684694,256.241499 125.942916,256.38457 126.807207,255.696765 C126.902349,255.62105 126.990388,255.536817 127.070231,255.445112 L144,236" id="Path-3-Copy-2" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M626,185.328374 L633.996889,195.377209 C634.684694,196.241499 635.942916,196.38457 636.807207,195.696765 C636.902349,195.62105 636.990388,195.536817 637.070231,195.445112 L654,176" id="Path-3-Copy" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M626,245.328374 L633.996889,255.377209 C634.684694,256.241499 635.942916,256.38457 636.807207,255.696765 C636.902349,255.62105 636.990388,255.536817 637.070231,255.445112 L654,236" id="Path-3-Copy-2" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,305.328374 L123.996889,315.377209 C124.684694,316.241499 125.942916,316.38457 126.807207,315.696765 C126.902349,315.62105 126.990388,315.536817 127.070231,315.445112 L144,296" id="Path-3-Copy-3" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,365.328374 L123.996889,375.377209 C124.684694,376.241499 125.942916,376.38457 126.807207,375.696765 C126.902349,375.62105 126.990388,375.536817 127.070231,375.445112 L144,356" id="Path-3-Copy-4" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,420.328374 L123.996889,430.377209 C124.684694,431.241499 125.942916,431.38457 126.807207,430.696765 C126.902349,430.62105 126.990388,430.536817 127.070231,430.445112 L144,411" id="Path-3-Copy-5" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,482.328374 L123.996889,492.377209 C124.684694,493.241499 125.942916,493.38457 126.807207,492.696765 C126.902349,492.62105 126.990388,492.536817 127.070231,492.445112 L144,473" id="Path-3-Copy-6" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,538.328374 L123.996889,548.377209 C124.684694,549.241499 125.942916,549.38457 126.807207,548.696765 C126.902349,548.62105 126.990388,548.536817 127.070231,548.445112 L144,529" id="Path-3-Copy-7" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,599.328374 L123.996889,609.377209 C124.684694,610.241499 125.942916,610.38457 126.807207,609.696765 C126.902349,609.62105 126.990388,609.536817 127.070231,609.445112 L144,590" id="Path-3-Copy-8" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,662.328374 L123.996889,672.377209 C124.684694,673.241499 125.942916,673.38457 126.807207,672.696765 C126.902349,672.62105 126.990388,672.536817 127.070231,672.445112 L144,653" id="Path-3-Copy-9" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,725.328374 L123.996889,735.377209 C124.684694,736.241499 125.942916,736.38457 126.807207,735.696765 C126.902349,735.62105 126.990388,735.536817 127.070231,735.445112 L144,716" id="Path-3-Copy-10" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,785.328374 L123.996889,795.377209 C124.684694,796.241499 125.942916,796.38457 126.807207,795.696765 C126.902349,795.62105 126.990388,795.536817 127.070231,795.445112 L144,776" id="Path-3-Copy-11" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,845.328374 L123.996889,855.377209 C124.684694,856.241499 125.942916,856.38457 126.807207,855.696765 C126.902349,855.62105 126.990388,855.536817 127.070231,855.445112 L144,836" id="Path-3-Copy-12" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,905.328374 L123.996889,915.377209 C124.684694,916.241499 125.942916,916.38457 126.807207,915.696765 C126.902349,915.62105 126.990388,915.536817 127.070231,915.445112 L144,896" id="Path-3-Copy-13" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,965.328374 L123.996889,975.377209 C124.684694,976.241499 125.942916,976.38457 126.807207,975.696765 C126.902349,975.62105 126.990388,975.536817 127.070231,975.445112 L144,956" id="Path-3-Copy-14" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,1025.32837 L123.996889,1035.37721 C124.684694,1036.2415 125.942916,1036.38457 126.807207,1035.69676 C126.902349,1035.62105 126.990388,1035.53682 127.070231,1035.44511 L144,1016" id="Path-3-Copy-15" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,1085.32837 L123.996889,1095.37721 C124.684694,1096.2415 125.942916,1096.38457 126.807207,1095.69676 C126.902349,1095.62105 126.990388,1095.53682 127.070231,1095.44511 L144,1076" id="Path-3-Copy-16" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,1145.32837 L123.996889,1155.37721 C124.684694,1156.2415 125.942916,1156.38457 126.807207,1155.69676 C126.902349,1155.62105 126.990388,1155.53682 127.070231,1155.44511 L144,1136" id="Path-3-Copy-17" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M116,1205.32837 L123.996889,1215.37721 C124.684694,1216.2415 125.942916,1216.38457 126.807207,1215.69676 C126.902349,1215.62105 126.990388,1215.53682 127.070231,1215.44511 L144,1196" id="Path-3-Copy-18" stroke="#D31818" stroke-width="2" stroke-linecap="round"></path>
+                        <text id="AEIS暑期冲刺集训营" font-family="PingFangSC-Semibold, PingFang SC" font-size="16" font-weight="500" fill="#FFFFFF">
+                            <tspan x="64" y="52">AEIS暑期冲刺集训营</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

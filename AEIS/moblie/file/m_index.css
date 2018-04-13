@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.w {
+    width: 19rem;
+    margin: auto;
+}
+
+.head img {
+    width: 100%;
+    height: 16rem;
+}
+
+.section .section_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section .section_title img {
+    width: 2rem;
+    height: 1rem;
+}
+
+.section .section_title img:first-child {
+    margin-right: -1rem;
+}
+
+.section .section_title img:last-child {
+    margin-left: -1rem;
+    margin-top: 0.7rem;
+}
+
+.section .section_title h3 {
+    font-size: 1rem;
+    padding: 0.1rem;
+    line-height: 1.5rem;
+    color: #D31919;
+}
+
+.section1 {
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.section1 .section_content {
+    margin-top: 2rem;
+}
+
+.section1 .content {
+    margin-top: 2rem;
+    height: 14rem;
+    box-shadow: 0 0 0.4rem #888888;
+}
+
+.section1 .clearfloat {
+    clear: both;
+}
+
+.section1 img {
+    width: 19rem;
+    height: 11rem;
+}
+
+.section1 .content_info {
+    padding: 0.4rem;
+}
+
+.section1 .content_info span {
+    color: #666666;
+    font-size: 0.78rem;
+    float: left;
+    line-height: 1.11rem;
+    text-align: left;
+}
+
+.section1 .content_info a.advise {
+    float: right;
+    color: #FFFFFF;
+    font-size: 0.67rem;
+    background: #D31919;
+    display: inline-block;
+    border-radius: 1.28rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.section2 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.section2 h3 {
+    font-size: 1.3rem;
+    line-height: 1.83rem;
+}
+
+.section2 h3 span:first-child {
+    color: #333333;
+}
+
+.section2 h3 span:last-child {
+    color: #D31919;
+}
+
+span.sub_title {
+    display: block;
+    color: #666666;
+    font-size: 0.78rem;
+    line-height: 1.11rem;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+    width: 19rem;
+}
+
+.section2 div.line {
+    margin: 1rem auto 3rem;
+    width: 2.33rem;
+    height: 0.17rem;
+    background: #D31818;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.section2 .back {
+    margin: auto;
+    width: 3rem;
+    height: 3rem;
+    background-size: contain;
+}
+
+.section2 ul li span {
+    display: block;
+    margin-top: 2rem;
+    font-size: 0.78rem;
+    color: #333333;
+}
+
+.section2 .info_content {
+    background: url("../Public/Uploads/Zt/20180406/m_back.png") no-repeat top;
+    background-size: contain;
+}
+
+.section2 .info_content img {
+    width: 16rem;
+    height: 30rem;
+    margin-top: 9rem;
+}
+
+.service {
+    display: inline-flex;
+    background: url("../Public/Uploads/Zt/20180406/m_back2.png") no-repeat;
+    background-size: cover;
+    height: 83rem;
+    padding: 1rem;
+}
+
+.service img.line {
+    width: 1rem;
+    height: 75rem;
+}
+
+.service .right .part {
+    text-align: left;
+    margin-left: 0.5rem;
+    height: 7.7rem;
+}
+
+.service .right .partback {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service .right .part span {
+    display: inline-block;
+    font-size: 1rem;
+    color: #D31818;
+    vertical-align: top;
+    margin: 1rem 0 0 1rem;
+}
+
+.service .right .part p {
+    font-size: 0.78rem;
+    color: #333333;
+    line-height: 1.33rem;
+}
+
+.section3 {
+    background: url("../Public/Uploads/Zt/20180406/m_teacher_back.png") no-repeat bottom;
+    background-size: contain;
+    margin-top: 3rem;
+}
+
+.section3 .section_content {
+    margin-top: 2rem;
+}
+
+.section3 .section_content .teacher_info {
+    background: url("../Public/Uploads/Zt/20180406/m_teacher_back1.png") no-repeat;
+    background-size: cover;
+    width: 19rem;
+    height: 21rem;
+    display: inline-flex;
+}
+
+.section3 .section_content .teacher_info ul {
+    color: #fff;
+    font-size: 1rem;
+    margin: 2.8rem 0 0 1.5rem;
+    text-align: left;
+    width: 19rem;
+}
+
+.section3 .section_content .teacher_info li:first-child {
+    padding-top: 1.5rem;
+}
+
+.section3 .section_content .teacher_info li {
+    padding: 1rem 0 0 0.5rem;
+    color: #666666;
+    font-size: 0.67rem;
+    line-height: 1rem;
+    width: 15rem;
+}
+
+.section4 {
+    margin-top: 3rem;
+}
+
+.section4 .section_content img {
+    width: 19rem;
+    height: 63rem;
+    padding-top: 2rem;
+}
+
+.section5 .section_content img:first-child {
+    margin-top: 2rem;
+}
+
+.section5 .section_content img {
+    width: 19rem;
+    height: 14rem;
+    margin-top: 1rem;
+}
+
+.section5 .section_content p {
+    font-size: 0.78rem;
+    color: #999999;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.section6 {
+    margin-top: 3rem;
+    background: url("../Public/Uploads/Zt/20180406/m_back3.png") no-repeat;
+    background-size: cover;
+}
+
+.section6 .section_title {
+    padding-top: 2rem;
+}
+
+.section6 .section_title h3 {
+    color: #fff;
+}
+
+.section6 span.sub_title {
+    color: #fff;
+}
+
+.section6 .section_content {
+    margin: 4rem auto 0 auto;
+    padding-bottom: 7rem;
+}
+
+.section6 .section_content .swiper-slide img {
+    width: 12rem;
+    height: 16rem;
+    margin: 0 auto;
+}
+
+.section6 .section_content .swiper-container {
+    margin: 0 auto;
+}
+
+
+/* .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background: url("../Public/Uploads/Zt/20180308/m_jt_l.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: url("../Public/Uploads/Zt/20180308/m_jt_r.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */

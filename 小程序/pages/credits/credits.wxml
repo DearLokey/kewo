@@ -1,0 +1,113 @@
+<!--index.wxml-->
+<navigator url="navigate?title=navigate" hover-class="navigator-hover"></navigator>
+<view class="main">
+  <!--积分头部开始-->
+  <view class="section credits">
+    <view class='left'>
+      <text class='amount'>100</text>
+      <text class='amount_descrip'>可用积分</text>
+    </view>
+    <view class='right' bindtap='seekdata'>
+      <text>查阅资料</text>
+    </view>
+  </view>
+  <!--积分头部结束-->
+  <!--积分规则开始-->
+  <view class="section mycredits rule">
+    <text class='title'>积分规则</text>
+    <view class='detail rule_detail'>
+      <view class='detail_content'>
+        <text class='rule name'>绑定星课帐号奖励3分</text>
+        <text class='rule times'>完成 1/1</text>
+      </view>
+      <view class='status finished'>
+        <text>已完成</text>
+      </view>
+    </view>
+    <view class='detail rule_detail'>
+      <view class='detail_content'>
+        <text class='rule name'>首次分享星课小程序至微信好友或朋友圈奖励4积分</text>
+        <text class='rule times'>完成 0/1</text>
+      </view>
+      <view class='status share' bindtap='click'>
+        <text>去分享</text>
+      </view>
+    </view>
+    <view class='detail rule_detail'>
+      <view class='detail_content'>
+        <text class='rule name'>邀请好友注册绑定星课帐号奖励4分</text>
+        <text class='rule times'>不限次数</text>
+      </view>
+      <view class='status invite' bindtap='invite'>
+        <text>去邀请</text>
+      </view>
+    </view>
+  </view>
+  <!--积分规则结束-->
+  <!--积分明细开始-->
+  <view class="section mycredits detail">
+    <text class='title'>积分明细</text>
+    <view class='detail spend_detail'>
+      <view class='detail_content'>
+        <text class='spend name'>查看文章</text>
+        <text class='spend times'>2018-02-01 14:34:45</text>
+      </view>
+      <view class='status minus'>
+        <text>- 5</text>
+      </view>
+    </view>
+    <view class='detail spend_detail'>
+      <view class='detail_content'>
+        <text class='spend name'>完成分享</text>
+        <text class='spend times'>2018-02-01 14:34:45</text>
+      </view>
+      <view class='status plus'>
+        <text>+4</text>
+      </view>
+    </view>
+    <view class='detail spend_detail'>
+      <view class='detail_content'>
+        <text class='spend name'>完成绑定</text>
+        <text class='spend times'>2018-02-01 14:34:45</text>
+      </view>
+      <view class='status plus'>
+        <text>+3</text>
+      </view>
+    </view>
+    <view class='detail spend_detail'>
+      <view class='detail_content'>
+        <text class='spend name'>完成绑定</text>
+        <text class='spend times'>2018-02-01 14:34:45</text>
+      </view>
+      <view class='status plus'>
+        <text>+3</text>
+      </view>
+    </view>
+  </view>
+  <!--积分明细结束-->
+</view>
+<!--模态框开始-->
+<view class="modal-box box1" hidden="{{flag}}">
+  <view class="modal-body body1">
+    <view class="modal-content content1">
+      <view class='tab' bindtap='share'>
+        <image class='share2' src='../images/share2.png'></image>
+        <text>转发</text>
+      </view>
+      <view class='tab' bindtap='share'>
+        <image class="share1" src='../images/share1.png'></image>
+        <text>分享到朋友圈</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="modal-box box2" hidden="{{flag1}}">
+  <view class="modal-body body2">
+    <view class="modal-content content2" bindtap="cancel">
+      <image class='logo' src='../images/credits2.png'></image>
+      <text class='score'>积分 +3</text>
+      <text class='info'>分享成功</text>
+    </view>
+  </view>
+</view>
+<!--模态框结束-->

@@ -1,0 +1,446 @@
+body{
+    min-width: 1300px;
+}
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+a.a-button {
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.head {
+    background: url("../Public/Uploads/Zt/20180313/p_banner.png") #D74043 no-repeat top center;
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.head a.a-button {
+    border: #fff 1px solid;
+    width: 220px;
+    height: 55px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 50px;
+    margin: 479px auto 0 auto;
+    padding-top: 5px;
+}
+
+.head .a-button:hover {
+    background-color: #fff;
+    color: rgba(195, 15, 35, 1);
+}
+
+.headnav {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background: rgba(195, 15, 35, 1);
+}
+
+.headnav ul {
+    margin: 0 auto;
+}
+
+.headnav ul li {
+    padding: 20px 130px 20px 70px;
+}
+
+.headnav ul li div.nav-img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.headnav ul li:first-child div.nav-img img,
+.headnav ul li:nth-child(4) div.nav-img img {
+    padding-top: 10px;
+}
+
+.headnav ul li span.nav-span {
+    display: block;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 27px;
+    text-align: center;
+}
+
+.section .section-title {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.section .section-content ul li .section-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.section1 .section-content ul li {
+    width: 265px;
+    height: 356px;
+    overflow: hidden;
+    padding: 30px 0 0 60px;
+}
+
+.section1 .section-content ul li:nth-child(2) {
+    margin: 72px 57px 0 65px;
+}
+
+.section1 .section-content ul li:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px gray;
+    border-radius: 4px;
+}
+
+.section1 .section-content ul li h3 {
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 33px;
+}
+
+.section1 .section-content ul li p {
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 30px;
+}
+
+.section1 .section-content ul li .a-button {
+    display: block;
+    border: rgba(195, 15, 35, 1) 1px solid;
+    width: 160px;
+    height: 34px;
+    font-size: 16px;
+    color: rgba(195, 15, 35, 1);
+    line-height: 22px;
+    padding-top: 15px;
+    margin-top: 35px;
+}
+
+.section1 .section-content ul li .a-button:hover {
+    background-color: rgba(195, 15, 35, 1);
+    color: #fff;
+}
+
+.section2 .section-content ul li .section-icon {
+    margin: 0 auto;
+}
+
+.section2 .section-content ul li {
+    width: 174px;
+    height: 189px;
+    border-radius: 4px;
+    margin: 50px 0 0 80px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section2 .section-content ul li p {
+    font-size: 16px;
+    color: rgba(153, 153, 153, 1);
+    line-height: 25px;
+}
+
+.section2 .section-content ul li:hover {
+    background: rgba(195, 15, 35, 1);
+    box-shadow: 0px 2px 6px 0px rgba(195, 15, 35, 0.53);
+    color: #fff;
+}
+
+.section2 .section-content ul li:hover p {
+    color: #fff;
+}
+
+.section3 .section-content {
+    text-align: center;
+}
+
+.section3 .section-content embed {
+    margin-top: 60px;
+    margin-bottom: 95px;
+}
+
+.section3 .section-content {
+    position: relative;
+}
+
+.section3 .teacher-info {
+    position: absolute;
+    top: 23%;
+    left: 46.5%;
+}
+.section3 .teacher-info img{
+    width: 97px;
+    height: 98px;
+}
+.section3 .teacher-info h3 {
+    font-size: 22px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 30px;
+}
+
+.section3 .teacher-info p {
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 10px;
+}
+.section3 .swiper-container-thumper {
+    margin: 0 auto;
+    width: 310px;
+    margin-top: -66px;
+}
+.section3 .swiper-container-thumper .swiper-slide.on{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 9px 0px rgba(76, 76, 76, 0.5)
+}
+.section3 .swiper-container-thumper .swiper-slide img {
+    width: 76px;
+    height: 75px;
+    margin-top: 11px;
+}
+.section3 .swiper-button-next,
+.section3 .swiper-container-rtl .swiper-button-prev {
+    background-image: url("../Public/Uploads/Zt/20180313/p_rightturn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+}
+
+.section3 .swiper-button-prev,
+.section3 .swiper-container-rtl .swiper-button-next {
+    background-image: url("../Public/Uploads/Zt/20180313/p_leftturn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+}
+
+.section3 .section-content .introduce-content {
+    width: 677px;
+    height: 160px;
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 32px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.section3 .swiper-container2 {
+    width: 750px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.section3 .swiper-container2 .swiper-slide .introduce-content {
+    clear: both;
+    margin-top: -66px;
+}
+
+.section3 .swiper-container2 .swiper-slide .introduce-content .left-mark {
+    float: left;
+    margin-left: -35px;
+}
+
+.section3 .swiper-container2 .swiper-slide .introduce-content .right-mark {
+    float: right;
+    margin-left: 50px;
+}
+
+.section4 .section-content {
+    margin: 75px 0 206px 0;
+}
+
+.section4 .section-content .left-content {
+    float: left;
+    width: 550px;
+    height: 410px;
+    margin-left: 51px;
+}
+
+.section4 .section-content .right-content ul li {
+    float: left;
+    width: 255px;
+    height: 193px;
+    background: rgba(240, 240, 240, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 30px;
+    margin: 0 10px 25px 20px;
+}
+
+.section4 .section-content .right-content ul li section {
+    margin: 40px 0 0 20px;
+}
+
+.section4 .section-content .right-content ul li section p {
+    text-align: left;
+}
+
+.section4 .section-content .right-content ul li:hover {
+    background: rgba(195, 15, 35, 1);
+    color: #fff;
+}
+
+.section5 {
+    float: left;
+    width: 100%;
+    height: 650px;
+    background: rgba(31, 42, 63, 1);
+    margin-top: 200px;
+    margin-bottom: 99px;
+}
+
+.section5 .section-content {
+    margin-top: 80px;
+    position: relative;
+}
+
+.swiper-container {
+    width: 1000px;
+    padding-right: 30px;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+
+.swiper-button-next {
+    position: absolute;
+    top: 55%;
+    left: 90%;
+}
+
+.section5 .swiper-button-next,
+.section5 .swiper-container-rtl .swiper-button-prev {
+    background-image: url("../Public/Uploads/Zt/20180313/p_right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section5 .swiper-button-prev,
+.section5 .swiper-container-rtl .swiper-button-next {
+    background-image: url("../Public/Uploads/Zt/20180313/p_left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.swiper-container .swiper-slide img {
+    width: 350px;
+    height: 250px;
+}
+
+.section6 {
+    clear: both;
+}
+
+.section6>.title {
+    width: 1100px;
+    margin: 70px auto 0;
+    text-align: left;
+}
+
+.section6>.title>li {
+    display: inline-block;
+}
+
+.section6>.title>li>a {
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 37px;
+    color: rgba(18, 34, 93, 0.7);
+    padding-bottom: 4px;
+}
+
+.section6>.title>li>a:hover {
+    font-size: 20px;
+    color: #12225d;
+    line-height: 28px;
+    border-bottom: 3px solid #f64f6c;
+}
+
+.section6>.title>li>a.active {
+    font-size: 20px;
+    color: #12225d;
+    line-height: 28px;
+    border-bottom: 3px solid #f64f6c;
+}
+
+.section6>div {
+    margin: 39px auto;
+    width: 1120px;
+}
+
+.section6>div .con {
+    text-align: left;
+    width: 800px;
+}
+
+.section6>div .con>li>div {
+    margin-top: 20px;
+}
+
+.section6>div .con>li.hide {
+    display: none;
+}
+
+.section6>div .con>li embed {
+    float: left;
+}
+
+.section6>div .con>li .t {
+    color: #12225D;
+    font-size: 16px;
+}
+
+.section6>div .con>li span {
+    color: rgba(18, 34, 93, 0.5);
+    font-size: 14px;
+    margin: 0 16px;
+}
+
+.section6>div .con>li span.il {
+    margin-left: 22px;
+}
+
+.section6>div .con>li i {
+    color: #12225D;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.section6>div>div {
+    position: relative;
+    top: -66px;
+    width: 210px;
+    text-align: center;
+    display: inline-block;
+}
+
+.section6>div>div>div {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #12225d;
+    line-height: 25px;
+}
+
+.right {
+    float: right;
+    margin: -190px auto 10px;
+}

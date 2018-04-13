@@ -1,0 +1,9 @@
+/**index.wxss**/
+@import "../regist/regist.wxss";
+.modal-content .logo{
+  width: 94rpx;
+  height: 94rpx;
+}
+.modal-content{
+  padding: 10rpx;
+}

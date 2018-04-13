@@ -1,0 +1,35 @@
+@import "modal.wxss";
+.main {
+  margin: 40rpx;
+}
+
+.main .section {
+  margin-top: 20rpx;
+}
+
+.main .section .left {
+  width: 240rpx;
+  height: 180rpx;
+}
+
+.main .section .right {
+  margin-left: 30rpx;
+}
+
+.main .section .right text.title {
+  width: 380rpx;
+  color: #444;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+}
+
+.main .section .right text.time {
+  font-size: 20rpx;
+  color: #999;
+  line-height: 28rpx;
+  margin-top: 24rpx;
+}
+
+.modal-content{
+  padding: 30rpx;
+}

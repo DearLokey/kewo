@@ -1,0 +1,85 @@
+/**index.wxss**/
+@import "../main/modal.wxss";
+page {
+  background: #fff;
+  height: 100%;
+}
+
+.main {
+  margin: 14rpx 40rpx;
+}
+
+.main .input {
+  padding-bottom: 5rpx;
+  border-bottom: #ddd solid 1rpx;
+  margin-top: 50rpx;
+  font-size: 24rpx;
+  width: 668rpx;
+}
+
+.main .input input {
+  color: #999;
+  width: 488rpx;
+}
+
+.main .password, .main .IDcode {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .password .forgetPass {
+  color: #666;
+  white-space:nowrap;
+   padding-left: 50rpx;
+}
+
+.main .IDcode .getcode {
+  margin: 0 0 10rpx 0;
+  color: #333;
+  background: #fcc800;
+  border-radius: 8rpx;
+  width: 150rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 30rpx;
+  white-space:nowrap;
+}
+
+.main .confirm {
+  margin-top: 120rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background: #94ca5d;
+  border-radius: 8rpx;
+  height: 80rpx;
+  width: 394rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 276rpx;
+}
+.modal-body {
+  top: 26%;
+  left: 22%;
+  width: 550rpx;
+  height: 560rpx;
+}
+.modal-content{
+  width: 410rpx;
+  height: 230rpx;
+}
+.modal-content .logo {
+  margin: 30rpx auto 36rpx auto;
+  width: 62rpx;
+  height: 36rpx;
+}
+.modal-content .score {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.modal-content .info {
+  color: #454545;
+  margin-top: 16rpx;
+  font-size: 36rpx;
+}

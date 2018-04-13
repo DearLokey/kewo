@@ -1,0 +1,14 @@
+<!--collection.wxml-->
+<navigator url="navigate?title=navigate" hover-class="navigator-hover"></navigator>
+<view class="main">
+  <view class="section" bindtap='clickImage' wx:for="{{arry}}" wx:key="{{arry}}">
+    <image class="left" src="{{item.src}}"></image>
+    <view class="right">
+      <text class="title">{{item.title}}</text>
+      <view class='bottom'>
+        <text class="time">{{item.time}}</text>
+        <image class='collection_icon' src='../images/collection_icon.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

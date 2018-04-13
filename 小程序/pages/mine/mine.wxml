@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<navigator url="navigate?title=navigate" hover-class="navigator-hover"></navigator>
+<view class="main">
+  <view class="section">
+    <image class="left user-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="right user-info">
+      <text class="account">账号：{{userInfo.nickName}}</text>
+      <text class="credit">积分：3</text>
+    </view>
+  </view>
+  <view class="section info">
+      <view class="my collection" bindtap='collection'>
+        <image src='../images/collection1.png'></image>
+        <text>我的收藏</text>
+      </view>
+      <view class="my credits" bindtap='credits'>
+        <image src='../images/credits1.png'></image>
+        <text>我的积分</text>
+      </view>
+      <view class="my history" bindtap='history'>
+        <image src='../images/history.png'></image>
+        <text>浏览历史</text>
+      </view>
+  </view>
+
+</view>

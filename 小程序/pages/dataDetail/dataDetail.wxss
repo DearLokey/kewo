@@ -1,0 +1,109 @@
+/**index.wxss**/
+@import "./menu.wxss";
+@import "../main/modal.wxss";
+
+page {
+  background: #fff;
+  height: 100%;
+}
+
+.main {
+  margin: 14rpx 40rpx;
+}
+
+.detail .title {
+  display: block;
+  text-align: center;
+  font-size: 36rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+  margin-top: 42rpx;
+}
+
+.detail .content {
+  display: block;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #666;
+  margin-top: 30rpx;
+}
+
+.detail image {
+  width: 670rpx;
+  height: 290rpx;
+  margin: 30rpx auto 10rpx;
+}
+
+.credit_rulet {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit_rule .credit {
+  margin: 30rpx auto;
+  width: 320rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  color: #fcc800;
+  background: #2a2a2c;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 50rpx;
+}
+
+.credit_rule .credit image {
+  width: 16rpx;
+  height: 16rpx;
+}
+
+.credit_rule text.rule {
+  font-size: 24rpx;
+  line-height: 30rpx;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 180rpx;
+}
+
+.modal-body {
+  width: 456rpx;
+  left: 18%;
+}
+
+.modal-content {
+  font-size: 28rpx;
+  position: relative;
+}
+
+.modal-content .info {
+  width: 382rpx;
+  margin: 86rpx auto 150rpx;
+}
+
+.modal-content .choose {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-content .choose text {
+  display: inline-block;
+  width: 228rpx;
+  padding: 20rpx 0;
+  font-size: 28rpx;
+}
+
+.modal-content .choose text.close {
+  background: #d2d2d2;
+  color: #fff;
+  border-radius: 0 0 0 10rpx;
+}
+
+.modal-content .choose text.confirm {
+  background: #fcc800;
+  color: #333;
+  border-radius: 0 0 10rpx 0;
+}

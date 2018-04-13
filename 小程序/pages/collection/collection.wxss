@@ -1,0 +1,6 @@
+@import "../main/main.wxss";
+.main .section .right .bottom image.collection_icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 30rpx 0 0 252rpx;
+} 

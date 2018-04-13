@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="566px" height="538px" viewBox="0 0 566 538" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 27</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="550" height="522"></rect>
+        <filter x="-2.2%" y="-2.3%" width="104.4%" height="104.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.355442177   0 0 0 0 0.355442177   0 0 0 0 0.355442177  0 0 0 0.380349864 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect x="85" y="427" width="27" height="37" id="rect-3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AEIS报考指南" transform="translate(-899.000000, -4561.000000)">
+            <g id="Group-27" transform="translate(907.000000, 4569.000000)">
+                <g id="Rectangle-10-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#D83535" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="集训班组：AEIS-VIP一对一-培训方" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="31" fill="#FFFFFF">
+                    <tspan x="51" y="250">集训班组：</tspan>
+                    <tspan x="131" y="250" font-family="PingFangSC-Semibold, PingFang SC" font-size="18" font-weight="500">AEIS VIP一对一</tspan>
+                    <tspan x="259.394" y="250"></tspan>
+                    <tspan x="51" y="281">培训方式：一对一教学，在线/面授直播授课，</tspan>
+                    <tspan x="51" y="312">               在线直播课程赠送不限次回放</tspan>
+                    <tspan x="51" y="343">课程特色：根据学生现有能力及合理目标，定制专属的VIP课程</tspan>
+                </text>
+                <text id="备考方案：AEIS-VIP一对一" font-family="PingFangSC-Semibold, PingFang SC" font-size="30" font-weight="500" fill="#FFFFFF">
+                    <tspan x="51" y="107">备考方案：AEIS VIP一对一</tspan>
+                </text>
+                <text id="Preparation-scheme-Copy" opacity="0.400000006" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="51" y="60">Preparation scheme</tspan>
+                </text>
+                <text id="•--针对想参加AEIS考试学生的预备" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="51" y="163">• </tspan>
+                    <tspan x="62.662" y="163" font-family="LastResort, .LastResort"></tspan>
+                    <tspan x="78.7264531" y="163">	针对想参加AEIS考试学生的预备课，专业的授课让你们对AEIS有全面</tspan>
+                    <tspan x="51" y="183">详细的了解</tspan>
+                </text>
+                <rect id="Rectangle-8-Copy-5" fill="#FFFFFF" x="51" y="122" width="45" height="4"></rect>
+                <text id="300" font-family="PingFangSC-Semibold, PingFang SC" font-size="50" font-weight="500" fill="#FFFFFF">
+                    <tspan x="122" y="462">300</tspan>
+                </text>
+                <text id="仅需-copy" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="51" y="458">仅需</tspan>
+                </text>
+                <text id="/课时" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="218" y="458">/课时</tspan>
+                </text>
+                <g id="钱-copy">
+                    <image x="85" y="427" width="27" height="37" xlink:href="data:image/png;base64,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"></image>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

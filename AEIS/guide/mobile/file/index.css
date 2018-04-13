@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 1.22rem;
+    color: #666666
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 0.89rem;
+}
+
+h5 {
+    font-size: 0.78rem;
+}
+
+p {
+    color: #999999;
+    font-size: 0.89rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.w {
+    width: 19rem;
+    margin: auto;
+}
+
+a {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.head {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+
+.head img {
+    width: 100%;
+    height: 100%;
+}
+
+.head a.advise {
+    border-radius: 1.94rem;
+    font-size: 0.78rem;
+    font-weight: bold;
+    width: 7rem;
+    height: 2rem;
+    background: #D83535;
+    color: #fff;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    margin-left: -3.5rem;
+}
+
+.section {
+    text-align: center;
+}
+
+.section1 {
+    margin: 3rem auto 4rem;
+}
+
+.section1 .section_content ul li .back {
+    background-repeat: no-repeat;
+    margin: 2rem auto 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.section1 .section_content ul li h3 {
+    color: #666666;
+}
+
+.section1 .section_content ul li p {
+    width: 16rem;
+    display: block;
+    margin-top: 1rem;
+    line-height: 1.67rem;
+}
+
+.section1 .section_content .block {
+    color: #fff;
+    background: #D83535;
+    text-align: left;
+    padding: 1rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.2rem;
+}
+
+.section1 .section_content .block h5 {
+    padding-bottom: 0.5rem;
+}
+
+.section1 .section_content .block p {
+    line-height: 1.44rem;
+    color: #fff;
+}
+
+.section2 .section_content embed.basic {
+    width: 6rem;
+    height: 8rem;
+}
+
+.section2 .section_content h4 {
+    color: #D83535;
+}
+
+.section2 .section_content p+h4 {
+    margin-top: 2rem;
+}
+
+.section2 .section_content p {
+    margin: auto;
+    line-height: 1.17rem;
+    width: 19rem;
+}
+
+.section2 .section_content embed.age {
+    width: 7rem;
+    height: 8rem;
+}
+
+.section2 .section_content ul {
+    position: relative;
+}
+
+.section2 .section_content ul li {
+    color: rgba(255, 255, 255, 0);
+    width: 9rem;
+    height: 3rem;
+}
+
+.section2 .section_content ul li:first-child {
+    position: absolute;
+    top: 15%;
+    left: 6%;
+}
+
+.section2 .section_content ul li:last-child {
+    position: absolute;
+    top: 15%;
+    left: 50.5%;
+}
+
+.section2 .section_content embed.primary,
+.section2 .section_content embed.junior {
+    width: 100%;
+}
+
+.section2 .section_content embed.hidden {
+    display: none;
+}
+
+a.more {
+    color: #fff;
+    font-size: 0.67rem;
+    background: #D83535;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 0.97rem;
+    margin-top: 2rem;
+}
+
+.section3 {
+    margin: 4rem auto;
+}
+
+.section3 .section_content embed {
+    width: 7rem;
+    height: 3rem;
+}
+
+.section3 .section_content .part {
+    margin: 3rem auto 0;
+    padding: 2rem 1rem;
+    width: 17rem;
+    height: 8rem;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
+    border-bottom: 0.22rem solid #D83535;
+}
+
+.section3 .section_content .address {
+    margin: 3rem auto;
+    height: 24rem;
+    position: relative;
+}
+
+.section3 .section_content .address .back_color {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: #D83535;
+}
+
+.section3 .section_content .address .address_content {
+    width: 17rem;
+    height: 21rem;
+    background: #fff;
+    position: absolute;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.section3 .section_content .address .address_content>div {
+    position: absolute;
+    top: 18%;
+}
+
+.section3 .section_content .address .address_content>div p {}
+
+.section3 .section_content .address .address_content div+img {
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    z-index: 111;
+}
+
+.section3 .section_content .address .address_content img+img {
+    position: absolute;
+    bottom: 0;
+    width: 17rem;
+    height: 9rem;
+}
+
+.section3 .section_content .plan {
+    width: 100%;
+    height: 30rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.section3 .section_content div.plan1 {
+    background: url("../Public/Uploads/Zt/20180408/m_plan1.png") no-repeat bottom center;
+}
+
+.section3 .section_content .plan .plan_content {
+    color: #fff;
+    margin: auto;
+    width: 15rem;
+    height: 25rem;
+    background: #D83535;
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: left;
+}
+
+.section3 .section_content .plan>p {
+    font-size: 0.67rem;
+    color: #fff;
+    text-align: right;
+    padding-right: 1rem;
+    line-height: 0.94rem;
+}
+
+.section3 .section_content .plan>p>span {
+    display: inline-flex;
+    border-radius: 50%;
+    background: #D83535;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.section3 .section_content .plan .plan_content p {
+    color: #fff;
+    font-size: 0.67rem;
+    line-height: 0.94rem;
+}
+
+.section3 .section_content .plan .plan_content ul+p {
+    margin-top: 2rem;
+}
+
+.section3 .section_content .plan .plan_content p>img {
+    margin: auto 1rem;
+}
+
+.section3 .section_content .plan .plan_content p>span {
+    font-size: 2.22rem;
+}
+
+.section3 .section_content embed.plan1 {
+    width: 15rem;
+    height: 3rem;
+}
+
+.section3 .section_content ul {
+    margin-top: 2rem;
+}
+
+.section3 .section_content ul li {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.78rem;
+    line-height: 1.44rem;
+}
+
+.section3 .section_content ul li span {
+    display: inline-block;
+    width: 4rem;
+}
+
+.section3 .section_content ul li i {
+    font-style: normal;
+    display: inline-block;
+    width: 11rem;
+}
+
+.section3 .section_content div.plan a.signup {
+    background: #fff;
+    color: #D83535;
+    font-size: 0.67rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1.94rem;
+    margin-top: 1rem;
+}
+
+.section3 .section_content embed.plan2 {
+    width: 14rem;
+    height: 3rem;
+}
+
+.section3 .section_content div.plan2 {
+    background: url("../Public/Uploads/Zt/20180408/m_plan2.png") no-repeat bottom center;
+}
+
+.section4 {
+    margin-bottom: 3rem;
+}
+
+.section4 .section_content img {
+    width: 13rem;
+    height: 10rem;
+}
+
+.section4 .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background: url("../Public/Uploads/Zt/20180408/m_right.png") no-repeat;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(180deg);
+    outline: none;
+}
+
+.section4 .swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: url("../Public/Uploads/Zt/20180408/m_right.png") no-repeat;
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    outline: none;
+}
+
+.section5 {
+    width: 100%;
+    color: #fff;
+    background: #222222;
+    padding: 3rem 0 2rem;
+}
+
+.section5>.clearfix {
+    width: 15rem;
+}
+
+.section5 .clearfix img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.section5>.title {
+    width: 19rem;
+    margin: 2rem auto 0;
+    text-align: left;
+}
+
+.section5>.title>li {
+    display: inline-block;
+}
+
+.section5>.title>li>a {
+    font-size: 0.67rem;
+    line-height: 0.94rem;
+    margin-right: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+.section5>.title>li>a.active {
+    border-bottom: 0.1rem solid #fff;
+}
+
+.section5>div {
+    margin: 2rem auto;
+    width: 19rem;
+}
+
+.section5>div .con {
+    text-align: left;
+}
+
+.section5>div .con>li>div {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.section5>div .con>li.hide {
+    display: none;
+}
+
+.section5>div .con>li embed {
+    float: left;
+}
+
+.section5>div .con>li .t {
+    font-size: 0.67rem;
+}
+
+.section5>div .con>li span {
+    font-size: 0.61rem;
+    margin: 0 0.4rem;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.section5>div .con>li i {
+    font-size: 0.61rem;
+    font-style: normal;
+    display: inline-block;
+    width: 10rem;
+    line-height: 0.89rem;
+    vertical-align: middle;
+}
+
+.section5 .bottom img {
+    width: 7rem;
+    height: 7rem;
+}

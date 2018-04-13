@@ -1,0 +1,42 @@
+/**index.wxss**/
+
+.main {
+  margin: 50rpx 40rpx auto;
+  color: #666666;
+}
+.main .section{
+  margin-top: 40rpx;
+}
+.main .user-avatar {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 40rpx 0 40rpx 60rpx;
+  border-radius: 50%;
+}
+
+.main .user-info {
+  font-size: 12px;
+  line-height: 34px;
+  color: #666666;
+  margin-left: 58rpx;
+}
+
+.main .user-info text.account {
+  margin-top: 70rpx;
+}
+.main .info{
+  padding: 30rpx 0;
+}
+.main .info .my{
+  display: flex;
+  flex-direction: column;
+  padding: 0 55rpx;
+}
+.main .info .my image{
+  width: 46rpx;
+  height: 44rpx;
+  padding: 28rpx;
+}
+.main .info .my:not(:last-child){
+  border-right: #EEEEEE solid 3rpx;
+}

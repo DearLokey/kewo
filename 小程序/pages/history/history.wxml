@@ -1,0 +1,52 @@
+<!--collection.wxml-->
+<navigator url="navigate?title=navigate" hover-class="navigator-hover"></navigator>
+<view class="main">
+  <view class="section" bindtap='clickImage'>
+    <image class="left" src="../images/example.png"></image>
+    <view class="right">
+      <text class="title">2018南京市小学升初中指南指南指南指南指南</text>
+      <view class='bottom'>
+        <text class="time">2018.02.12</text>
+        <image class='collection_icon' src='../images/collection_icon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class="section">
+    <image class="left" src="../images/example.png"></image>
+    <view class="right">
+      <text class="title">2018南京市小学升初中指南指南指南指南指南</text>
+      <text class="time">2018.02.12</text>
+    </view>
+  </view>
+  <view class="section">
+    <image class="left" src="../images/example.png"></image>
+    <view class="right">
+      <text class="title">2018南京市小学升初中指南指南指南指南指南</text>
+      <view class='bottom'>
+        <text class="time">2018.02.12</text>
+        <image class='collection_icon' src='../images/collection_icon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class="section">
+    <image class="left" src="../images/example.png"></image>
+    <view class="right">
+      <text class="title">2018南京市小学升初中指南指南指南指南指南</text>
+      <text class="time">2018.02.12</text>
+    </view>
+  </view>
+  <view class="section">
+    <image class="left" src="../images/example.png"></image>
+    <view class="right">
+      <text class="title">2018南京市小学升初中指南指南指南指南指南</text>
+      <text class="time">2018.02.12</text>
+    </view>
+  </view>
+  <view class="section">
+    <image class="left" src="../images/example.png"></image>
+    <view class="right">
+      <text class="title">2018南京市小学升初中指南指南指南指南指南</text>
+      <text class="time">2018.02.12</text>
+    </view>
+  </view>
+</view>

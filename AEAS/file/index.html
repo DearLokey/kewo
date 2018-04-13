@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<title>手机端</title>
+	<link rel="stylesheet" type="text/css" href="base.css"/>
+	<link rel="stylesheet" type="text/css" href="swiper.min.css"/>
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<style type="text/css">
+	
+	html, body {
+		font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+		font-size: 16px;
+	}
+	img{
+		display: block;
+	}
+	.first-back{
+		background: url(../Public/Uploads/Zt/20180308/m_bg_1.png) no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.second-back{
+		background: url(../Public/Uploads/Zt/20180308/m_bg_2.png) no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.logo img{
+		width: 5.09rem;height: 1.88rem;
+		margin-top:1.06rem;
+		margin-left: 1.47rem;
+	}
+	.yearPic img{
+		width: 5.53rem;height:2.38rem;
+		margin: 0 auto;
+		margin-top: 2.13rem;
+	}
+	.banner h3{
+		width:11.69rem; height:2.44rem; 
+		font-size:1.75rem; 
+		color:rgba(104,110,224,1);
+		line-height:2.44rem;
+		margin: 0 auto;
+		margin-top: 0.72rem;
+	}
+	.banner p{
+		width:19.78rem; height:3.19rem; 
+		font-size:0.75rem; 
+		color:rgba(153,153,153,1);
+		line-height:1.2rem;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 1.09rem;
+	}
+	.arrow img{
+		margin: 0 auto;
+		margin-top: 2.56rem;
+		width: 0.5rem;height:0.6rem;
+	}
+	.section1 .title h3{
+		margin: 0 auto;
+		margin-top: 1.28rem;
+		width:8.44rem; height:1.75rem; 
+		font-size:1.25rem; 
+		color:rgba(91,83,255,1);
+		line-height:1.75rem;
+		font-weight: bold;
+	}
+	.section4 .title h3,.section5 .title h3,.section6 .title h3,.more h3,.section8 .title h3{	
+		color: #5B53FF;
+		text-align: center;
+		font-size:1rem;
+		margin-top: 4rem;
+		font-weight: bold;
+	}
+	.section1 .title p,.section5 .title p,.section6 .title p{
+		font-size:0.86rem;
+		color:rgba(153,153,153,1);
+		line-height:1.18rem;
+		text-align: center;
+		margin-top: 0.5rem;
+	}
+	.section1 .line ,.section4 .line ,.section5 .line,.section6 .line,.more .line{
+		width:0.91rem;
+		height:0.16rem;
+		background:rgba(91,83,255,1);
+		margin: 0 auto;
+		margin-top: 0.47rem;
+	}
+	.section1 .content{
+		margin: 0 auto;
+		margin-top: 1.03rem;
+		width: 21.5rem;
+		height: 14.16rem;
+		background: url(../Public/Uploads/Zt/20180308/m_chun_d.png) no-repeat top center;
+		background-size: cover;
+		position: relative;
+	}
+	.chun-pic{
+		position: absolute;
+		top: 1.63rem;
+		left: 2.2rem;
+	}
+	.chun-pic img{
+		width:8rem;
+		height:7rem;
+		background:linear-gradient(rgba(160,167,242,1),rgba(103,199,224,0));
+	}
+	.chun-content{
+		position: absolute;
+		top: 1.69rem;
+		left:10.6rem;
+	}
+	.chun-content span.title{
+		width:8.44rem; height:1.41rem; 
+		font-size:1rem; 
+		color:rgba(51,51,51,1);
+		line-height:1.41rem;
+	}
+	.chun-content span{
+		margin-top: 0.06rem;
+		width:5.28rem; height:0.88rem; 
+		font-size:0.63rem; 
+		color:rgba(102,102,102,1);
+		line-height:1.2rem;
+	}
+	.chun-content p{
+		width:9.91rem; 
+		font-size:0.63rem; 
+		font-family:PingFangSC-Regular;
+		color:rgba(153,153,153,1);
+		line-height:1.1rem;
+	}
+	.chun-bottom{
+		width:12.16rem; height:1.03rem; 
+		font-size:0.75rem; 
+		font-family:PingFangSC-Medium;
+		color:rgba(92,114,227,1);
+		line-height:1.03rem;
+		position: absolute;
+		top: 9rem;
+		left:5.8rem;
+		margin-top: 1.1rem;
+	}
+	.section1 .advise{
+		width:3.44rem; height:1.5rem; 
+		background:rgba(249,191,48,1);
+		border-radius:0.13rem;
+		position: absolute;
+		top: 11.75rem;
+		left: 8.88rem;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.section1 .advise a{
+		width:2.09rem; height:0.69rem; 
+		font-size:0.5rem; 
+		color:rgba(255,255,255,1);
+		line-height:0.69rem;
+	}
+	.section2{
+		margin-top: 1.94rem;
+	}
+	.section2 .title h3,.section3 .title h3{
+		color:#FFFFFF;
+		text-align: center;
+		font-size:1.13rem;
+		font-weight: bold;
+	}
+	.section2 .line ,.section3 .title .line{
+		width:0.91rem;
+		height:0.16rem;
+		background:rgba(255,255,255,1);
+		margin: 0 auto;
+		margin-top: 0.47rem;
+	}
+	.section2 .content{
+		margin: 1rem;
+		color:#fff;
+	}
+	.section2 .content p,.section4 .content p{
+		line-height: 1.19rem;
+	}
+	.section2 .content .img,.section4 .content .img{
+		margin: 0 auto 1rem auto;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 2rem;
+		height: 2rem;
+	}
+	.section2 li,.section4 li{
+		display: inline-block;
+		vertical-align: top;
+		width: 8rem;height: 9.5rem;
+		font-size:0.75rem;
+	}
+	.section2 li p ,.section4 li p{
+		font-size: 0.81rem;
+	}
+	.section2 .content li:nth-child(2),.section2 .content li:nth-child(4),.section4 .content li:nth-child(2),.section4 .content li:nth-child(4){
+		margin-left: 2rem;
+	}
+	.section2 .content li:first-child .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_1@4x.png") ;
+	}
+	.section2 .content li:nth-child(2) .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_2@4x.png") ;
+	}
+	.section2 .content li:nth-child(3) .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_3@4x.png") ;
+	}
+	.section2 .content li:nth-child(4) .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_4@4x.png") ;
+	}
+	.section4 .content li:first-child .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_x_1@4x.png") ;
+	}
+	.section4 .content li:nth-child(2) .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_x_2@4x.png") ;
+	}
+	.section4 .content li:nth-child(3) .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_x_3@4x.png") ;
+	}
+	.section4 .content li:nth-child(4) .img{
+		background-image: url("../Public/Uploads/Zt/20180308/m_x_4@4x.png") ;
+	}
+	.section3 .content{
+		width:16.31rem; height:1.91rem; 
+		font-size:0.88rem; 
+		line-height:1.25rem;
+		margin: 0 auto;
+		margin-top: 1.19rem;
+		background: url(../Public/Uploads/Zt/20180308/m_1212112.png);
+		background-size: cover;
+		text-align: center;
+		padding-top: 0.34rem;
+		color:rgba(40,152,237,1);
+	}
+	.section4 .content,.section2 .content{
+		text-align: center;
+	}
+	.section4 .content h3{
+		font-size:1rem;
+		font-weight: bold;
+		margin-bottom: 0.5rem;
+	}
+	.section5 .content{
+		margin: 0 auto;
+		width:19.72rem; height:17.19rem; 
+		background:rgba(255,255,255,1); 
+		border-radius:0.25rem;
+		box-shadow: -0.01rem -0.01rem 0.1rem #8888;
+	}
+	.section5 .first{
+		margin-top: 2rem;
+	}
+	.section5 .content img{
+		width: 18rem;
+		height: 13rem;
+		margin: 0 auto;
+		padding-top: 1rem;
+	}
+	.section5 .bottom{
+		position: relative;
+	}
+	.section5 .bottom span.title{
+		font-size:1.1rem;
+		font-weight: bold;
+		margin-top: 0.5rem;
+		margin-bottom: 0.4rem;
+		text-align: left;
+	}
+	.section5 .bottom span{
+		display: block;
+		font-size:0.7rem;
+		text-align: left;
+		padding-left: 1rem;
+	}
+	.section5 .bottom .advise{
+		width:5.71rem;
+		height:1.79rem;
+		background:rgba(249,191,48,1);
+		border-radius: 0.11rem ; 
+		position: absolute;top: 0.6rem;left: 13.1rem;
+		text-align: center;
+	}
+	.section5 .bottom .advise a{
+		width:2.69rem;
+		height:0.88rem;
+		font-size:0.63rem;
+		color:rgba(255,255,255,1);
+		line-height:0.88rem;
+	}
+	.section5{
+		margin-bottom: 1.5rem;
+	}
+	.teacher img{
+		margin: 0 auto;
+		width:11rem;
+		height: 11rem;
+		margin-top: 0.86rem;
+	}
+	.section6 .bottom{
+		width: 20rem;height: 9rem;margin: 0 auto;
+	}
+	.section6 .bottom span{
+		font-size:1.13rem;
+		color:rgba(51,51,51,1);
+		line-height:0.7rem;
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 1.06rem;
+	}
+	.section6 .bottom p{
+		font-size:0.88rem; 
+		color:rgba(153,153,153,1);
+		text-align: center;
+		margin-top: 1rem;
+		width: 20rem;
+	}
+	.section7 .content{
+		clear: both;
+	}
+	.swiper-container {
+		margin: 0 auto;
+		width: 21rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+		background: url("../Public/Uploads/Zt/20180308/m_jt_l.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+		background: url("../Public/Uploads/Zt/20180308/m_jt_r.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.swiper-slide img{
+		width: 12rem;
+		height: 10rem;
+		margin: 0 auto;
+		margin-top: 1rem;
+	}
+	.section8{
+		clear: both;
+	}
+	.section8 .content{
+		margin: 0 auto;
+		margin-top: 1rem;
+		width:19.72rem;
+		height:35.16rem;
+		background:rgba(255,255,255,1);
+		box-shadow: -0.01rem -0.01rem 0.2rem #8888;
+		border-radius: 0.43rem ; 
+		clear: both;
+	}
+	.section8 .content .left{
+		padding-left: 1rem;
+		padding-top: 2.2rem;
+		float: left;
+	}
+	.section8 .content .left span{
+		display: block;
+		width:4.5rem;
+		height:1.03rem;
+		font-size:0.75rem;
+		color:rgba(102,111,224,1);
+		line-height:1.03rem;
+		margin-bottom: 5.5rem;
+	}
+
+	.section8 .content .right{
+		padding-top: 2rem;
+		padding-left: 0.5rem;
+		float: left;
+	}
+	.section8 .content .right p{
+		width:13rem;
+		height:4.94rem;
+		font-size:0.75rem;
+		color:rgba(102,102,102,1);
+		line-height:1.25rem;
+		margin-bottom: 1.6rem;
+	}
+	.section8 .content .right span{
+		display: block;
+		color: #9B9B9B;
+	}
+	.section8 .content .right span.title{
+		color:rgba(102,102,102,1);
+		line-height:1.25rem;
+	}
+	.footer .content{
+		clear: both;
+	}
+	.footer .content img{
+		width: 5rem;height: 5rem;
+		margin:0 auto;
+		margin-top: 1rem;
+	}
+	.footer .content .bottom{
+		font-size:0.56rem; 
+		line-height:0.78rem;
+		width:6.91rem; height:5.5rem; 
+		color:rgba(255,255,255,1);
+		margin: 1rem auto 1rem 7.5rem;
+	}
+	.footer .content .bottom span{
+		display: block;
+		margin-bottom: 0.5rem;
+		width: 10rem;
+		font-size:0.56rem;
+	}
+	.fixed{
+		overflow: hidden;
+		width: 100%;
+		height: 3rem;
+		position: fixed;
+		background: #2E95ED;
+		bottom: 0;
+		left: 0;
+	}
+	.fixed li{
+		width: 50%;
+		float: left;
+		text-align: center;
+		line-height: 3rem;
+	}
+	.fixed li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color:#fff;
+	}
+	.fixed li:first-child a{
+		background: url("../Public/Uploads/Zt/20180308/file/m_phone.svg") no-repeat center center;
+		border-right:rgba(255, 255, 255, 0.5) 0.1rem solid;
+		text-indent: -9999px;
+		color:#fff;
+	}
+	.fixed li a:active{
+		background: #901817;
+	}
+
+</style>
+</head>
+<body>
+	<div class="first-back">
+		<div class="logo">
+			<img src="../Public/Uploads/Zt/20180308/m_logo.png"/>
+		</div>
+
+		<div class="yearPic">
+			<img src="../Public/Uploads/Zt/20180308/m_2018.png"/>
+		</div>
+
+		<div class="banner">
+			<h3>拥有 未来 希望</h3>
+			<p>AEAS是澳大利亚教育评估服务机构根据在校中学生的英语水平，为希望到澳大利亚就读中小学的学生专门特设的综合考试。</p>
+		</div>
+
+		<div class="arrow">
+			<img src="../Public/Uploads/Zt/20180308/m_arrow.png">
+		</div>
+		<div class="section1">
+			<div class="title">
+				<h3>AEAS春季课程</h3>
+				<div class="line"></div>
+				<p>独家定制 直达澳洲名校</p>
+			</div>
+
+			<div class="content">
+				<div class="chun-pic">
+					<a href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;configID=148576&amp;jid=9428835900" target="_blank"><img src="../Public/Uploads/Zt/20180308/m_chun.png"/>
+
+					</a>
+				</div>
+
+				<div class="chun-content">
+					<span class="title">AEAS春季强化班</span>
+					<br>
+					<span>主讲人：臧守华等</span>
+					<p>澳大利亚中小学入学考试网</p>
+					<p>	震撼推出AEAS春季班</p>
+					<p>	在这个春天抓住机会</p>
+					<p>通往澳洲名校</p>
+				</div>	
+
+				<span class="chun-bottom">你还在为留学澳洲而烦恼吗？</span>
+				<div class="advise">
+					<a class="btn1" target="_blank" href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;jid=9428835900">立即咨询</a>
+				</div>
+			</div>
+		</div>
+		<div class="section2">
+			<div class="title">
+				<h3>课程优势</h3>
+				<div class="line"></div>
+			</div>
+
+			<div class="content">
+				<ul>
+					<li><div class="img">&nbsp;</div>
+						<p>澳大利亚中小学入学考试网资深名师，亲自上阵指导重点针对考试疑难杂点
+						</p>
+					</li>
+					<li><div class="img">&nbsp;</div>
+						<p>授课严肃对待知识点分类讲解，让考试变得简单学习更加高效</p>
+					</li>
+					<li><div class="img">&nbsp;</div>
+						<p>课上能力满满课后加强练习，线上线下无缝隙完美结合</p>
+					</li>
+					<li><div class="img">&nbsp;</div>
+						<p>拥有最新最全精选题库，在这个春天冲击最强大脑</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section3">
+			<div class="title">
+				<h3>适用范围</h3>
+				<div class="line"></div>
+			</div>
+			<div class="content">准备参加2-12月后AEAS考试的学生</div>
+		</div>
+		<div class="section4">
+			<div class="title">
+				<h3>课程效果</h3>
+				<div class="line"></div>
+			</div>
+			<div class="content">
+				<ul>
+					<li>
+						<div class="img">&nbsp;</div>
+						<h3>掌握考试题型</h3>
+						<p>试题全方面解析<br>考点框架全了解</p>
+					</li>
+					<li>
+						<div class="img">&nbsp;</div>
+						<h3>理清解题思路</h3>
+						<p>解题思路细分析<br>思维方法会总结</p>
+					</li>
+					<li>
+						<div class="img">&nbsp;</div>
+						<h3>提高解题思路</h3>
+						<p>解题方法会梳理<br>解题技巧全掌握</p>
+					</li>
+					<li>
+						<div class="img">&nbsp;</div>
+						<h3>突破AEIS考试</h3>
+						<p>针对考试全教程<br>成功去澳洲留学</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section5">
+			<div class="title">
+				<h3>AEAS更多课程</h3>
+				<div class="line"></div>
+				<p>等你来 留学澳洲不是梦</p>
+			</div>
+			<div class="content first">
+				<a href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;configID=148576&amp;jid=9428835900" target="_blank"><img src="../Public/Uploads/Zt/20180308/m_class_1.png"/></a>
+				<div class="bottom">
+					<span class="title">AEAS坚实基础班</span>
+					<span>主讲人：臧守华等</span>
+					<div class="advise"><a class="btn1" target="_blank" href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;jid=9428835900">立即咨询</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="section5">
+			<div class="content">
+				<a href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;configID=148576&amp;jid=9428835900" target="_blank"><img src="../Public/Uploads/Zt/20180308/m_class_2.png"/></a>
+				<div class="bottom">
+					<span class="title">AEAS强化冲刺班</span>
+					<span>主讲人：臧守华等</span>
+					<div class="advise"><a class="btn1" target="_blank" href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;jid=9428835900">立即咨询</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="second-back">
+		<div class="section5">
+			<div class="content">
+				<a href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;configID=148576&amp;jid=9428835900" target="_blank"><img src="../Public/Uploads/Zt/20180308/m_class_3.png"/></a>
+				<div class="bottom">
+					<span class="title">AEAS一对一定制班</span>
+					<span>主讲人：臧守华等</span>
+					<div class="advise"><a class="btn1" target="_blank" href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;jid=9428835900">立即咨询</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="section6">
+			<div class="title">
+				<h3>AEAS 春季课程</h3>
+				<div class="line"></div>
+				<p>手把手教学 给你最强的后盾</p>
+			</div>
+			<div class="content teacher">
+				<img src="../Public/Uploads/Zt/20180308/m_teacher.png"/>
+				<div class="bottom">
+					<span>臧守华 </span>
+					<span>MISS Zang</span>
+					<p>前外籍飞行翻译，五年一线语言学术考试领域教研与教学；专攻澳洲AEAS，擅长口语教学，授课风趣幽默，横跨不同级别考试，深入浅出，寓教于乐，帮助学生轻松掌握知识点。</p>
+				</div>
+			</div>
+		</div>
+		<div class="section7">
+			<div class="title more">
+				<h3>更多专题</h3>
+				<div class="line"></div>
+			</div>
+			<div class="content">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/54" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_1.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/36" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_2.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/42" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_3.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/2" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_4.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/3" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_5.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/4" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_6.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/24" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_7.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/25" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_8.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://www.kewo.com/zt/26" target="_blank">
+								<img src="../Public/Uploads/Zt/20180308/m_z_9.png" alt="新加坡BCA建筑学院">
+							</a>
+						</div>
+					</div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+
+			</div>
+		</div>
+		<div class="section8">
+			<div class="title more">
+				<h3>联系我们</h3>
+				<div class="line"></div>
+
+			</div>
+			<div class="content">
+				<div class="left">
+					<span>中国-南京</span>
+					<span>中国-上海</span>
+					<span>新加坡－大成</span>
+					<span>新加坡－湖畔</span>
+					<span>澳洲－悉尼</span>
+				</div>
+				<div class="right">
+					<p>
+						<span class="title">课窝南京秦淮学习体验中心</span>
+						<span>电话：(+86—25) 8652 1500<br>
+						地址：南京市秦淮区中山东路198号龙 台国际大厦裙楼2层03室 210000</span>
+					</p>
+					<p>
+						<span class="title">课窝上海杨浦学习体验中心</span>
+						<span> 电话：(+86—21) 6129 9167<br>地址：上海市杨浦区国泰路11号复旦科 技大厦10楼1001室，200433</span>
+					</p>
+					<p>
+						<span class="title">课窝新加坡大成学习体验中心</span>
+						<span>电话：(+65) 6636 5655<br>地址：8 Burn Road #06—05 Trivex, Singapore, 369977</span>
+					</p>
+					<p>
+						<span class="title">课窝新加坡湖畔学习体验中心</span>
+						<span> 电话：(+65) 6909 5716<br>地址：Blk 479, Jurong West Street 41, #01-268, Singapore, 640479</span>
+					</p>
+					<p>
+						<span class="title">课窝悉尼学习体验中心</span>
+						<span>  电话：(+61) 02 8970 1053<br>地址：Suite 601, Level 6, 109 Pitt Street, Sydney, NSW 2000 </span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="content">
+				<img src="../Public/Uploads/Zt/20180308/m_erwema.png"/>
+				<div class="bottom">
+					<span>客服热线：400 850 6500</span>
+					<span> 澳大利亚中小学入学考试网</span>
+				</div>
+			</div>
+		</div>
+		<ul class="fixed">
+			<li>
+				<a href="tel:400-850-6500" target="_blank">
+					拨打电话400-850-6500
+				</a>
+			</li>
+			<li>
+				<a href="http://chat16.live800.com/live800/chatClient/chatbox.jsp?companyID=620095&amp;configID=148576&amp;jid=9428835900" target="_blank">立刻咨询</a>
+			</li>
+		</ul>
+	</div>
+</body>
+<!-- Swiper JS -->
+<script src="swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 1,
+		spaceBetween: 30,
+		loop: true,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+</script>
+</html>

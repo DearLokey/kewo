@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="main">
+  <view class='input phone'>
+    <input type='text' placeholder='请输入手机号'></input>
+  </view>
+  <view class='input password'>
+    <input password='true' placeholder='请输入密码'></input>
+    <text class='forgetPass' bindtap='forgetPass'>忘记密码</text>
+  </view>
+  <view class='input IDcode'>
+    <input type='text' placeholder='请输入验证码'></input>
+    <text class='getcode'>获取验证码</text>
+  </view>
+  <view class='confirm' bindtap='click'>绑定/注册</view>
+</view>
+<!--模态框开始-->
+<view class="modal-box" hidden="{{flag}}" >
+  <view class="modal-body">
+    <view class="modal-content" bindtap="cancel">
+      <image class='logo' src='../images/credits2.png'></image>
+      <text class='score'>积分 +3</text>
+      <text class='info'>绑定成功</text>
+    </view>
+  </view>
+</view>
+<!--模态框结束-->

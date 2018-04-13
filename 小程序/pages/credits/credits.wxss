@@ -1,0 +1,172 @@
+/**index.wxss**/
+@import "../main/modal.wxss";
+.main {
+  margin: 42rpx 40rpx auto;
+  color: #666;
+}
+
+.main .section {
+  margin-top: 40rpx;
+}
+
+.main .credits {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .credits .left {
+  margin: auto;
+  padding: 30rpx 0 0 80rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .credits .left .amount {
+  font-size: 96rpx;
+  color: #fcc800;
+  line-height: 134rpx;
+}
+
+.main .credits .left .amount_descrip {
+  font-size: 24rpx;
+  margin:0 0 44rpx 0;
+}
+
+.main .credits .right text {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  color: #4a90e2;
+  margin: 20rpx 20rpx auto auto;
+}
+
+.main .mycredits {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .mycredits text.title {
+  font-size: 36rpx;
+  line-height: 44rpx;
+  font-weight: bold;
+  padding: 24rpx 0 12rpx 30rpx;
+  border-bottom: #eee solid 2rpx;
+}
+
+.main .mycredits .detail {
+  display: flex;
+  flex-direction: row;
+  margin: 30rpx;
+}
+
+.main .mycredits .detail .detail_content {
+  display: flex;
+  flex-direction: column;
+  width: 440rpx;
+}
+
+.main .mycredits .detail .status {
+  text-align: center;
+  margin: auto 0 auto 60rpx;
+  width: 120rpx;
+  height: 54rpx;
+  border-radius: 27rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 30rpx;
+}
+
+.main .rule .rule_detail .detail_content text.rule.times {
+  color: #fcc800;
+  margin-top: 20rpx;
+}
+
+.main .rule .rule_detail .finished {
+  background: #dcdcdc;
+}
+
+.main .rule .rule_detail .finished text, .main .rule .rule_detail .invite text {
+  color: #4d4d4d;
+}
+
+.main .rule .rule_detail .share {
+  background: #71bd5f;
+}
+
+.main .rule .rule_detail .share text {
+  color: #fff;
+}
+
+.main .rule .rule_detail .invite {
+  background: #fcc800;
+}
+
+.main .detail .spend_detail text.spend.times {
+  font-size: 20rpx;
+  color: #999;
+  margin-top: 10rpx;
+}
+
+.main .detail .spend_detail .status {
+  font-size: 36rpx;
+  margin-left: 240rpx;
+
+}
+
+.main .detail .spend_detail .minus {
+  color: #b90000;
+}
+
+.main .detail .spend_detail .plus {
+  color: #81b24d;
+}
+.body2 {
+  top: 26%;
+  left: 22%;
+  width: 550rpx;
+  height: 560rpx;
+}
+.content2{
+  width: 410rpx;
+  height: 230rpx;
+}
+.content2 .logo {
+  margin: 30rpx auto 36rpx auto;
+  width: 62rpx;
+  height: 36rpx;
+}
+.content2 .score {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.content2 .info {
+  color: #454545;
+  margin-top: 16rpx;
+  font-size: 36rpx;
+}
+.content1 .tab{
+  display: flex;
+  flex-direction: row;
+  padding:40rpx 50rpx;
+  border-bottom: #EEEEEE solid 1rpx;
+}
+.content1{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+}
+ .box1 image{
+  margin:6rpx 20rpx 0 0;
+} 
+.box1 image.share2{
+  width: 30rpx;
+  height: 34rpx;
+}
+.box1 image.share1{
+  width: 32rpx;
+  height: 32rpx;
+}

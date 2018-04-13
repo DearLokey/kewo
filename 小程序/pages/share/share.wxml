@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="main">
+  <view class='share'>
+    <view class='share_content'>
+      <image class='cover' src='../images/example.png'></image>
+      <view class='right'>
+        <text class='title'>2018南京市小学升初中指南指南指南指南</text>
+        <text class='date'>2018.02.12 </text>
+      </view>
+    </view>
+  </view>
+  <view class='share_button button1'>
+    <text>分享到朋友圈</text>
+  </view>
+  <view class='share_button button2'>
+    <text>分享给好友</text>
+  </view>
+  <view class='menu'>
+    <view class='sub' wx:for="{{arry}}" wx:key="{{arry}}" wx:for-index="idx">
+      <image src='{{item.src}}' id="{{idx}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+</view>

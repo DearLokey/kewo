@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="main">
+  <view class='detail'>
+    <text class='title'>2018南京市小学升初中指南</text>
+    <text class='content'>这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</text>
+    <image src='../images/example.png'></image>
+    <text class='content'>这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</text>
+  </view>
+  <view class='credit_rule'>
+    <view class='credit' bindtap='confirm_cost'>
+      <text>查看完整内容需要5积分</text>
+      <image src='../images/down_icon.png'></image>
+    </view>
+    <text class='rule' bindtap='credits'>查看积分规则</text>
+  </view>
+  <view class='menu'>
+    <view class='sub' wx:for="{{arry}}" wx:key="{{arry}}" wx:for-index="idx" bindtap='select'>
+      <image src='{{item.src}}' id="{{idx}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+</view>
+<!--模态框开始-->
+<view class="modal-box" hidden="{{flag}}">
+  <view class="modal-body">
+    <view class="modal-content">
+      <text class='info'>阅读当前全部文章需扣掉5积分 是否继续？</text>
+      <view class='choose'>
+        <text class='close' bindtap='cancel'>取消</text>
+        <text class='confirm'>确认</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!--模态框结束-->
